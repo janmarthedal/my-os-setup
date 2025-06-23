@@ -1,29 +1,6 @@
-# My Linux Setup
+# My OS Setup for MacOS
 
 ## Prerequisites
-
-Make sure to update the list of available packages
-```
-sudo apt update
-```
-Install git
-```
-sudo apt install git
-```
-To clone this repository, make sure you have [generated an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent),
-```
-ssh-keygen -t ed25519 -C "jan@janmr.com"
-```
-and added it in your github settings.
-
-Now clone this repository into `~/.local/share/my-linux-setup`.
-
-## Key bindings
-
-- ALT+Space: Window menu
-- Shift+Alt+1: New Chrome window
-- Shift+Alt+2: New Wezterm window
-- Shift+F11: Toggle full-screen
 
 ## Mise
 

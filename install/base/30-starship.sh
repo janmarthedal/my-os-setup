@@ -1,10 +1,6 @@
-cd /tmp
-curl -sS https://starship.rs/install.sh >install-starship.sh
-sh install-starship.sh -y
-rm install-starship.sh
-cd -
+mkdir -p ~/.local/bin
+curl -sS https://starship.rs/install.sh | sh -s -- -y -b ~/.local/bin
 
 mkdir -p ~/.config
-cp ~/.local/share/my-linux-setup/configs/starship.toml ~/.config/starship.toml
-
-cp ~/.local/share/my-linux-setup/configs/starship/*.sh ~/.config/my-linux-setup/bashrc/
+cp ~/.local/share/my-os-setup/configs/starship.toml ~/.config/starship.toml
+cp ~/.local/share/my-os-setup/configs/starship/*.sh ~/.config/my-os-setup/zshrc/
